@@ -524,5 +524,70 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <a href="tel:8700469355">Call Now</a><br><br>
 <a href="https://wa.me/918700469355">WhatsApp Now</a>
+<h2>Customer Reviews</h2>
+
+<input type="text" id="name" placeholder="Your Name"><br><br>
+<textarea id="review" placeholder="Write review"></textarea><br><br>
+<button onclick="addReview()">Submit</button>
+
+<div id="reviews"></div>
+
+<script type="module">
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
+import { getFirestore, collection, addDoc, onSnapshot, deleteDoc, doc } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
+
+// 🔥 TERA ORIGINAL CONFIG (same paste kiya hai)
+const firebaseConfig = {
+  apiKey: "AIzaSyAjel3juibE7wY4uskh3yLrrQCczR74G-w",
+  authDomain: "court-marriage-review.firebaseapp.com",
+  projectId: "court-marriage-review",
+  storageBucket: "court-marriage-review.firebasestorage.app",
+  messagingSenderId: "761388874493",
+  appId: "1:761388874493:web:0932f0605c927aed809c94",
+  measurementId: "G-4NDJWPG13T"
+};
+
+const app = initializeApp(firebaseConfig);
+const db = getFirestore(app);
+
+// ✅ Add Review
+window.addReview = async function () {
+  const name = document.getElementById("name").value;
+  const review = document.getElementById("review").value;
+
+  if(name === "" || review === "") {
+    alert("Please fill all fields");
+    return;
+  }
+
+  await addDoc(collection(db, "reviews"), {
+    name: name,
+    review: review
+  });
+
+  document.getElementById("name").value = "";
+  document.getElementById("review").value = "";
+};
+
+// ✅ Show Reviews
+onSnapshot(collection(db, "reviews"), (snapshot) => {
+  let html = "";
+  snapshot.forEach((docItem) => {
+    const data = docItem.data();
+    html += `
+      <p>
+        <b>${data.name}</b>: ${data.review}
+        <button onclick="deleteReview('${docItem.id}')">Delete</button>
+      </p>
+    `;
+  });
+  document.getElementById("reviews").innerHTML = html;
+});
+
+// ✅ Delete Review
+window.deleteReview = async function (id) {
+  await deleteDoc(doc(db, "reviews", id));
+};
+</script>
 </body>
 </html>
