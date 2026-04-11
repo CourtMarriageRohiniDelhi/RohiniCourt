@@ -1,6 +1,5 @@
 <html lang="en">
 <head>
-  <meta name="google-site-verification" content="BweriMr2p0fOAlip1wak_woUwKlcnLnN40ep8nQQH6M" />
   <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -8,6 +7,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-P9MZLR8V');</script>
 <!-- End Google Tag Manager -->
+<meta name="google-site-verification" content="BweriMr2p0fOAlip1wak_woUwKlcnLnN40ep8nQQH6M" />
 <style>
   .circular-call-btn {
     position: fixed;
