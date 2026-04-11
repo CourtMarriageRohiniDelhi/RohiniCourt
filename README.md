@@ -524,6 +524,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <a href="tel:9315198092">Call Now</a><br><br>
 <a href="https://wa.me/919315198092">WhatsApp Now</a>
+
 </script>
 </body>
 </html>
