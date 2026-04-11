@@ -4,7 +4,6 @@
 <meta name="description" content="Court Marriage Delhi Rohini Court, Call 8700469355">
 <meta name="keywords" content="court marriage delhi, rohini court marriage">
 <title>Court Marriage Delhi</title>
-</head>
   <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -510,5 +509,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </svg>
   <span>CALL<br>NOW</span>
 </a>
+<h1>Court Marriage Delhi Rohini Court</h1>
+
+<p>Deepu Yadav Court Marriage Delhi</p>
+<p>Call: 8700469355 | WhatsApp Available</p>
+
+<h2>Services</h2>
+<ul>
+<li>Love Marriage Delhi</li>
+<li>Inter Caste Marriage Delhi</li>
+<li>Arya Samaj Marriage Rohini</li>
+<li>Same Day Court Marriage</li>
+</ul>
+
+<a href="tel:8700469355">Call Now</a><br><br>
+<a href="https://wa.me/918700469355">WhatsApp Now</a>
 </body>
 </html>
