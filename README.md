@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="hi" prefix="og: http://ogp.me/ns#">
 <head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P9MZLR8V');</script>
+<!-- End Google Tag Manager -->
+<meta name="google-site-verification" content="BweriMr2p0fOAlip1wak_woUwKlcnLnN40ep8nQQH6M" />
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
 <title>Court Marriage Delhi | Same Day Certificate ₹3,100 | Rohini Court | Tis Hazari | Call 9315198092</title>
@@ -13,15 +21,6 @@
 <meta name="geo.position" content="28.7041;77.1025">
 <meta name="ICBM" content="28.7041, 77.1025">
 <link rel="canonical" href="https://courtmarriagedelhi.in/">
-  <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-P9MZLR8V');</script>
-<!-- End Google Tag Manager -->
-<meta name="google-site-verification" content="BweriMr2p0fOAlip1wak_woUwKlcnLnN40ep8nQQH6M" />
-<style>
 <!-- Open Graph -->
 <meta property="og:type" content="website">
 <meta property="og:title" content="Same Day Court Marriage Delhi | Legal Marriage Consultant | ₹3,100 se | Call 9315198092">
